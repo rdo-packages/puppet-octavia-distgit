@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fab399f4_6982f101",
+        "filename": "puppet-octavia.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2016-12-23T12:38:45Z",
+      "side": 1,
+      "message": "The module metadata (https://github.com/openstack/puppet-octavia/blob/master/metadata.json) also mention requirements of puppet-nova and puppet-keystone.\n\nIs there any reason why they are not listed here?",
+      "revId": "e7281ba92550202360efa7b1b0397073f7e31328",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fab399f4_2988f921",
+        "filename": "puppet-octavia.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2016-12-23T12:38:45Z",
+      "side": 1,
+      "message": "Due to some specialties of the OpenStack Puppet modules, we need to use a different name here (openstack-octavia). See https://github.com/rdo-packages/puppet-designate-distgit/blob/rpm-master/puppet-designate.spec#L3 for an example of how it\u0027s done.",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 40
+      },
+      "revId": "e7281ba92550202360efa7b1b0397073f7e31328",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fab399f4_498d2d31",
+        "filename": "puppet-octavia.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2016-12-23T12:38:45Z",
+      "side": 1,
+      "message": "We should not have this line at the beginning of %install, fedora-review advises against it.",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 19
+      },
+      "revId": "e7281ba92550202360efa7b1b0397073f7e31328",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
