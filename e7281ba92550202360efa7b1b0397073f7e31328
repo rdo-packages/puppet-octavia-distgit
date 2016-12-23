@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "fab399f4_49944d37",
+        "filename": "puppet-octavia.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 197
+      },
+      "writtenOn": "2016-12-23T13:09:32Z",
+      "side": 1,
+      "message": "No reason, I somehow skipped both entries while checking the metadata.json :/ Fixed",
+      "parentUuid": "fab399f4_6982f101",
+      "revId": "e7281ba92550202360efa7b1b0397073f7e31328",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fab399f4_2988f921",
         "filename": "puppet-octavia.spec",
         "patchSetId": 1
@@ -42,6 +60,30 @@
     },
     {
       "key": {
+        "uuid": "fab399f4_899e6555",
+        "filename": "puppet-octavia.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 197
+      },
+      "writtenOn": "2016-12-23T13:09:32Z",
+      "side": 1,
+      "message": "Thanks, I will try not to mix up the names in the update!",
+      "parentUuid": "fab399f4_2988f921",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 40
+      },
+      "revId": "e7281ba92550202360efa7b1b0397073f7e31328",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fab399f4_498d2d31",
         "filename": "puppet-octavia.spec",
         "patchSetId": 1
@@ -53,6 +95,30 @@
       "writtenOn": "2016-12-23T12:38:45Z",
       "side": 1,
       "message": "We should not have this line at the beginning of %install, fedora-review advises against it.",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 19
+      },
+      "revId": "e7281ba92550202360efa7b1b0397073f7e31328",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fab399f4_6999116e",
+        "filename": "puppet-octavia.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 197
+      },
+      "writtenOn": "2016-12-23T13:09:32Z",
+      "side": 1,
+      "message": "I will drop it.\n\nNote this part came from the example spec file: https://github.com/openstack-packages/openstack-example-spec/blob/master/puppet-example.spec\nIt may be worth updating it?",
+      "parentUuid": "fab399f4_498d2d31",
       "range": {
         "startLine": 38,
         "startChar": 0,
