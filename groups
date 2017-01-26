@@ -1,5 +1,5 @@
-# UUID          Group Name
-False 	Non-Interactive Users
-498ed1546535b17a7b66a24e936882558d1fe8a1       	puppet/puppet-octavia-distgit-core
-742b6c8dc52f1205be3cb553d1bebaabe707e70f        	puppet/puppet-octavia-distgit-ptl
-global:Registered-Users		Registered Users
+# UUID                                  	Group Name
+#
+498ed1546535b17a7b66a24e936882558d1fe8a1	puppet/puppet-octavia-distgit-core
+742b6c8dc52f1205be3cb553d1bebaabe707e70f	puppet/puppet-octavia-distgit-ptl
+global:Registered-Users                 	Registered Users
