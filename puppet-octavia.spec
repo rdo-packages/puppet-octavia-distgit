@@ -3,7 +3,7 @@
 %define upstream_name openstack-octavia
 
 Name:                   puppet-octavia
-Version:                12.3.0
+Version:                12.4.0
 Release:                1%{?dist}
 Summary:                Puppet module for Octavia
 License:                ASL 2.0
@@ -48,6 +48,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/octavia/
 
 
 %changelog
+* Thu Mar 29 2018 RDO <dev@lists.rdoproject.org> 12.4.0-1
+- Update to 12.4.0
+
 * Tue Feb 20 2018 RDO <dev@lists.rdoproject.org> 12.3.0-1
 - Update to 12.3.0
 
