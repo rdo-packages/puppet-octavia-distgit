@@ -54,3 +54,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/octavia/
 * Fri Oct 04 2019 RDO <dev@lists.rdoproject.org> 15.4.0-1
 - Update to 15.4.0
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/puppet-octavia/commit/db40598a78a4ff4e7293e9084c13719f89c22f0c
