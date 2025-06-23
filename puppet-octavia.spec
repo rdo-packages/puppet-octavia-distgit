@@ -1,11 +1,11 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x2ef3fe0ec2b075ab7458b5f8b702b20b13df2318
+%global sources_gpg_sign 0x22284f69d9eccdf3df7819791c711af193ff8e54
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 %define upstream_name openstack-octavia
 
 Name:                   puppet-octavia
-Version:                23.0.0
+Version:                23.0.1
 Release:                1%{?dist}
 Summary:                Puppet module for Octavia
 License:                ASL 2.0
@@ -65,6 +65,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/octavia/
 
 
 %changelog
+* Mon Jun 23 2025 RDO <dev@lists.rdoproject.org> 23.0.1-1
+- Update to 23.0.1
+
 * Tue Oct 17 2023 RDO <dev@lists.rdoproject.org> 23.0.0-1
 - Update to 23.0.0
 
