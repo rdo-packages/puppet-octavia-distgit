@@ -66,3 +66,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/octavia/
 
 %changelog
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/puppet-octavia/commit/fa474d65c9ad081c30e8d397d986c49ca4c9dd78
